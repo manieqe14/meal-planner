@@ -1,0 +1,748 @@
+[
+  {
+    "id": "szakszuka",
+    "title": "Szakszuka",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 25,
+    "servings": 2,
+    "calories": 380,
+    "macros": { "protein": 22, "carbs": 18, "fat": 24 },
+    "ingredients": [
+      { "name": "Jajka", "amount": 4, "unit": "szt" },
+      { "name": "Pomidory z puszki", "amount": 400, "unit": "g" },
+      { "name": "Cebula", "amount": 1, "unit": "szt" },
+      { "name": "Papryka czerwona", "amount": 1, "unit": "szt" },
+      { "name": "Czosnek", "amount": 2, "unit": "ząbki" },
+      { "name": "Papryka słodka", "amount": 1, "unit": "łyżeczka" },
+      { "name": "Kmin rzymski", "amount": 1, "unit": "łyżeczka" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Na oliwie zeszklij pokrojoną cebulę i paprykę.",
+      "Dodaj przeciśnięty czosnek oraz przyprawy, smaż minutę.",
+      "Wlej pomidory, gotuj sos przez 10 minut.",
+      "Zrób wgłębienia i wbij do nich jajka.",
+      "Przykryj i duś do ścięcia białek. Podawaj z pieczywem."
+    ],
+    "tags": ["szybkie", "wegetariańskie", "wysokobiałkowe", "śniadanie"]
+  },
+  {
+    "id": "owsianka",
+    "title": "Owsianka",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 10,
+    "servings": 1,
+    "calories": 320,
+    "macros": { "protein": 12, "carbs": 52, "fat": 7 },
+    "ingredients": [
+      { "name": "Płatki owsiane", "amount": 50, "unit": "g" },
+      { "name": "Mleko", "amount": 250, "unit": "ml" },
+      { "name": "Banan", "amount": 1, "unit": "szt" },
+      { "name": "Miód", "amount": 1, "unit": "łyżka" },
+      { "name": "Orzechy włoskie", "amount": 20, "unit": "g" }
+    ],
+    "instructions": [
+      "Zagotuj mleko w rondelku.",
+      "Dodaj płatki owsiane i gotuj na małym ogniu 5 minut, mieszając.",
+      "Przełóż do miski, dodaj pokrojonego banana i orzechy.",
+      "Polej miodem i podawaj."
+    ],
+    "tags": ["szybkie", "wegetariańskie", "śniadanie", "słodkie"]
+  },
+  {
+    "id": "pappardelle-z-kurczakiem",
+    "title": "Pappardelle z kurczakiem",
+    "category": "Obiad",
+    "prepTimeMinutes": 35,
+    "servings": 3,
+    "calories": 620,
+    "macros": { "protein": 42, "carbs": 58, "fat": 22 },
+    "ingredients": [
+      { "name": "Makaron pappardelle", "amount": 300, "unit": "g" },
+      { "name": "Pierś z kurczaka", "amount": 400, "unit": "g" },
+      { "name": "Śmietanka 30%", "amount": 200, "unit": "ml" },
+      { "name": "Czosnek", "amount": 2, "unit": "ząbki" },
+      { "name": "Parmezan", "amount": 50, "unit": "g" },
+      { "name": "Szpinak", "amount": 100, "unit": "g" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Ugotuj makaron al dente według instrukcji na opakowaniu.",
+      "Pokrój kurczaka w paski i obsmaż na oliwie do zrumienienia.",
+      "Dodaj czosnek i szpinak, smaż chwilę.",
+      "Wlej śmietankę, dodaj starty parmezan i zredukuj sos.",
+      "Wymieszaj z makaronem, dopraw solą i pieprzem."
+    ],
+    "tags": ["obiad", "wysokobiałkowe", "makaron"]
+  },
+  {
+    "id": "pierogi",
+    "title": "Pierogi",
+    "category": "Obiad",
+    "prepTimeMinutes": 90,
+    "servings": 4,
+    "calories": 480,
+    "macros": { "protein": 16, "carbs": 72, "fat": 14 },
+    "ingredients": [
+      { "name": "Mąka pszenna", "amount": 500, "unit": "g" },
+      { "name": "Woda ciepła", "amount": 250, "unit": "ml" },
+      { "name": "Ziemniaki", "amount": 500, "unit": "g" },
+      { "name": "Twaróg półtłusty", "amount": 250, "unit": "g" },
+      { "name": "Cebula", "amount": 1, "unit": "szt" },
+      { "name": "Sól", "amount": 1, "unit": "łyżeczka" }
+    ],
+    "instructions": [
+      "Zagnieć ciasto z mąki, ciepłej wody i szczypty soli, odstaw pod ściereczką.",
+      "Ugotuj ziemniaki, rozgnieć i wymieszaj z twarogiem oraz podsmażoną cebulą.",
+      "Rozwałkuj ciasto i wykrawaj krążki.",
+      "Nałóż farsz, sklej brzegi pierogów.",
+      "Gotuj w osolonej wodzie do wypłynięcia i jeszcze 2 minuty."
+    ],
+    "tags": ["obiad", "wegetariańskie", "tradycyjne"]
+  },
+  {
+    "id": "lazania",
+    "title": "Lazania",
+    "category": "Obiad",
+    "prepTimeMinutes": 75,
+    "servings": 4,
+    "calories": 650,
+    "macros": { "protein": 34, "carbs": 48, "fat": 34 },
+    "ingredients": [
+      { "name": "Płaty lazanii", "amount": 250, "unit": "g" },
+      { "name": "Mięso mielone wołowe", "amount": 500, "unit": "g" },
+      { "name": "Passata pomidorowa", "amount": 500, "unit": "ml" },
+      { "name": "Mleko", "amount": 500, "unit": "ml" },
+      { "name": "Masło", "amount": 50, "unit": "g" },
+      { "name": "Mąka pszenna", "amount": 50, "unit": "g" },
+      { "name": "Ser mozzarella", "amount": 150, "unit": "g" },
+      { "name": "Cebula", "amount": 1, "unit": "szt" }
+    ],
+    "instructions": [
+      "Podsmaż cebulę z mięsem, dodaj passatę i duś sos 20 minut.",
+      "Przygotuj beszamel: roztop masło, dodaj mąkę i stopniowo mleko.",
+      "W naczyniu układaj warstwy: sos mięsny, płaty, beszamel.",
+      "Wierzch posyp mozzarellą.",
+      "Piecz w 180°C przez 35 minut."
+    ],
+    "tags": ["obiad", "wysokobiałkowe", "zapiekane"]
+  },
+  {
+    "id": "kotlety-mielone",
+    "title": "Kotlety mielone",
+    "category": "Obiad",
+    "prepTimeMinutes": 40,
+    "servings": 4,
+    "calories": 420,
+    "macros": { "protein": 30, "carbs": 18, "fat": 26 },
+    "ingredients": [
+      { "name": "Mięso mielone wieprzowe", "amount": 600, "unit": "g" },
+      { "name": "Bułka czerstwa", "amount": 1, "unit": "szt" },
+      { "name": "Jajko", "amount": 1, "unit": "szt" },
+      { "name": "Cebula", "amount": 1, "unit": "szt" },
+      { "name": "Bułka tarta", "amount": 50, "unit": "g" },
+      { "name": "Olej rzepakowy", "amount": 3, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Namocz bułkę w mleku i odciśnij.",
+      "Wymieszaj mięso z bułką, jajkiem i posiekaną cebulą, dopraw.",
+      "Formuj kotlety i obtocz w bułce tartej.",
+      "Smaż na rozgrzanym oleju z obu stron do zrumienienia.",
+      "Podduś pod przykryciem 10 minut."
+    ],
+    "tags": ["obiad", "wysokobiałkowe", "tradycyjne"]
+  },
+  {
+    "id": "zupa-meksykanska",
+    "title": "Zupa meksykańska",
+    "category": "Obiad",
+    "prepTimeMinutes": 45,
+    "servings": 4,
+    "calories": 390,
+    "macros": { "protein": 24, "carbs": 40, "fat": 14 },
+    "ingredients": [
+      { "name": "Mięso mielone wołowe", "amount": 400, "unit": "g" },
+      { "name": "Fasola czerwona", "amount": 400, "unit": "g" },
+      { "name": "Kukurydza", "amount": 200, "unit": "g" },
+      { "name": "Pomidory z puszki", "amount": 400, "unit": "g" },
+      { "name": "Papryka czerwona", "amount": 1, "unit": "szt" },
+      { "name": "Cebula", "amount": 1, "unit": "szt" },
+      { "name": "Przyprawa meksykańska", "amount": 2, "unit": "łyżeczki" },
+      { "name": "Bulion", "amount": 500, "unit": "ml" }
+    ],
+    "instructions": [
+      "Podsmaż cebulę i mięso mielone.",
+      "Dodaj pokrojoną paprykę i przyprawy.",
+      "Wlej pomidory i bulion, gotuj 15 minut.",
+      "Dodaj odsączoną fasolę i kukurydzę, gotuj kolejne 10 minut.",
+      "Podawaj z nachosami lub pieczywem."
+    ],
+    "tags": ["obiad", "pikantne", "wysokobiałkowe", "jednogarnkowe"]
+  },
+  {
+    "id": "losos-z-piekarnika",
+    "title": "Łosoś z piekarnika",
+    "category": "Kolacja",
+    "prepTimeMinutes": 30,
+    "servings": 2,
+    "calories": 450,
+    "macros": { "protein": 38, "carbs": 8, "fat": 30 },
+    "ingredients": [
+      { "name": "Filet z łososia", "amount": 400, "unit": "g" },
+      { "name": "Cytryna", "amount": 1, "unit": "szt" },
+      { "name": "Czosnek", "amount": 2, "unit": "ząbki" },
+      { "name": "Koperek", "amount": 1, "unit": "pęczek" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Rozgrzej piekarnik do 200°C.",
+      "Ułóż łososia na blasze z papierem do pieczenia.",
+      "Skrop oliwą i sokiem z cytryny, dodaj czosnek i koperek.",
+      "Piecz 15-18 minut.",
+      "Podawaj z warzywami lub ryżem."
+    ],
+    "tags": ["kolacja", "wysokobiałkowe", "lowcarb", "ryba"]
+  },
+  {
+    "id": "gofry",
+    "title": "Gofry",
+    "category": "Przekąska",
+    "prepTimeMinutes": 25,
+    "servings": 4,
+    "calories": 340,
+    "macros": { "protein": 8, "carbs": 44, "fat": 15 },
+    "ingredients": [
+      { "name": "Mąka pszenna", "amount": 250, "unit": "g" },
+      { "name": "Mleko", "amount": 300, "unit": "ml" },
+      { "name": "Jajka", "amount": 2, "unit": "szt" },
+      { "name": "Masło roztopione", "amount": 80, "unit": "g" },
+      { "name": "Cukier", "amount": 2, "unit": "łyżki" },
+      { "name": "Proszek do pieczenia", "amount": 1, "unit": "łyżeczka" }
+    ],
+    "instructions": [
+      "Wymieszaj składniki suche.",
+      "Dodaj mleko, jajka i roztopione masło, zmiksuj na gładkie ciasto.",
+      "Rozgrzej gofrownicę.",
+      "Wylewaj porcje ciasta i piecz do zrumienienia.",
+      "Podawaj z bitą śmietaną i owocami."
+    ],
+    "tags": ["przekąska", "słodkie", "deser", "wegetariańskie"]
+  },
+  {
+    "id": "kanapka-z-instagrama",
+    "title": "Kanapka z Instagrama",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 15,
+    "servings": 1,
+    "calories": 520,
+    "macros": { "protein": 24, "carbs": 42, "fat": 28 },
+    "ingredients": [
+      { "name": "Chleb na zakwasie", "amount": 2, "unit": "kromki" },
+      { "name": "Awokado", "amount": 1, "unit": "szt" },
+      { "name": "Jajko", "amount": 1, "unit": "szt" },
+      { "name": "Pomidor", "amount": 1, "unit": "szt" },
+      { "name": "Ser feta", "amount": 40, "unit": "g" },
+      { "name": "Rukola", "amount": 20, "unit": "g" }
+    ],
+    "instructions": [
+      "Opiecz kromki chleba na złoto.",
+      "Rozgnieć awokado i posmaruj kromki.",
+      "Usmaż jajko sadzone.",
+      "Ułóż pomidora, rukolę, fetę i jajko.",
+      "Dopraw solą i pieprzem, złóż kanapkę."
+    ],
+    "tags": ["śniadanie", "szybkie", "wegetariańskie", "modne"]
+  },
+  {
+    "id": "jajecznica-ze-szczypiorkiem",
+    "title": "Jajecznica ze szczypiorkiem",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "calories": 330,
+    "macros": { "protein": 20, "carbs": 3, "fat": 26 },
+    "ingredients": [
+      { "name": "Jajka", "amount": 6, "unit": "szt" },
+      { "name": "Masło", "amount": 20, "unit": "g" },
+      { "name": "Szczypiorek", "amount": 1, "unit": "pęczek" },
+      { "name": "Sól", "amount": 1, "unit": "szczypta" },
+      { "name": "Pieprz", "amount": 1, "unit": "szczypta" }
+    ],
+    "instructions": [
+      "Roztop masło na patelni.",
+      "Wbij jajka i smaż na małym ogniu, delikatnie mieszając.",
+      "Dopraw solą i pieprzem.",
+      "Posyp szczypiorkiem, podawaj z pieczywem."
+    ],
+    "tags": ["szybkie", "wysokobiałkowe", "wegetariańskie", "śniadanie"]
+  },
+  {
+    "id": "jajecznica-ze-szczypiorkiem-kolacja",
+    "title": "Jajecznica ze szczypiorkiem",
+    "category": "Kolacja",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "calories": 330,
+    "macros": { "protein": 20, "carbs": 3, "fat": 26 },
+    "ingredients": [
+      { "name": "Jajka", "amount": 6, "unit": "szt" },
+      { "name": "Masło", "amount": 20, "unit": "g" },
+      { "name": "Szczypiorek", "amount": 1, "unit": "pęczek" },
+      { "name": "Sól", "amount": 1, "unit": "szczypta" },
+      { "name": "Pieprz", "amount": 1, "unit": "szczypta" }
+    ],
+    "instructions": [
+      "Roztop masło na patelni.",
+      "Wbij jajka i smaż na małym ogniu, delikatnie mieszając.",
+      "Dopraw solą i pieprzem.",
+      "Posyp szczypiorkiem, podawaj z pieczywem."
+    ],
+    "tags": ["szybkie", "wysokobiałkowe", "wegetariańskie", "kolacja"]
+  },
+  {
+    "id": "jogurt-z-granola-i-owocami",
+    "title": "Jogurt z granolą i owocami",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "calories": 350,
+    "macros": { "protein": 15, "carbs": 50, "fat": 10 },
+    "ingredients": [
+      { "name": "Jogurt naturalny", "amount": 200, "unit": "g" },
+      { "name": "Granola", "amount": 50, "unit": "g" },
+      { "name": "Borówki", "amount": 80, "unit": "g" },
+      { "name": "Miód", "amount": 1, "unit": "łyżka" }
+    ],
+    "instructions": [
+      "Przełóż jogurt do miski.",
+      "Dodaj granolę i borówki.",
+      "Polej miodem.",
+      "Wymieszaj i podawaj."
+    ],
+    "tags": ["szybkie", "wegetariańskie", "śniadanie", "słodkie"]
+  },
+  {
+    "id": "omlet-z-warzywami",
+    "title": "Omlet z warzywami",
+    "category": "Kolacja",
+    "prepTimeMinutes": 15,
+    "servings": 1,
+    "calories": 380,
+    "macros": { "protein": 24, "carbs": 10, "fat": 27 },
+    "ingredients": [
+      { "name": "Jajka", "amount": 3, "unit": "szt" },
+      { "name": "Papryka czerwona", "amount": 0.5, "unit": "szt" },
+      { "name": "Pomidor", "amount": 1, "unit": "szt" },
+      { "name": "Ser żółty", "amount": 30, "unit": "g" },
+      { "name": "Oliwa z oliwek", "amount": 1, "unit": "łyżka" },
+      { "name": "Szczypiorek", "amount": 1, "unit": "pęczek" }
+    ],
+    "instructions": [
+      "Roztrzep jajka ze szczyptą soli.",
+      "Podsmaż pokrojoną paprykę na oliwie.",
+      "Wlej jajka i smaż pod przykryciem do ścięcia.",
+      "Posyp serem i pokrojonym pomidorem, złóż omlet.",
+      "Posyp szczypiorkiem i podawaj."
+    ],
+    "tags": ["kolacja", "wysokobiałkowe", "wegetariańskie", "szybkie", "lowcarb"]
+  },
+  {
+    "id": "salatka-grecka-z-kurczakiem",
+    "title": "Sałatka grecka z kurczakiem",
+    "category": "Kolacja",
+    "prepTimeMinutes": 20,
+    "servings": 2,
+    "calories": 420,
+    "macros": { "protein": 35, "carbs": 15, "fat": 25 },
+    "ingredients": [
+      { "name": "Pierś z kurczaka", "amount": 300, "unit": "g" },
+      { "name": "Ogórek", "amount": 1, "unit": "szt" },
+      { "name": "Pomidor", "amount": 2, "unit": "szt" },
+      { "name": "Ser feta", "amount": 100, "unit": "g" },
+      { "name": "Oliwki czarne", "amount": 50, "unit": "g" },
+      { "name": "Cebula czerwona", "amount": 0.5, "unit": "szt" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Pokrój kurczaka w kostkę i usmaż na oliwie.",
+      "Pokrój ogórek, pomidory i cebulę.",
+      "Wymieszaj warzywa z pokruszoną fetą i oliwkami.",
+      "Dodaj kurczaka.",
+      "Skrop oliwą i dopraw solą oraz pieprzem."
+    ],
+    "tags": ["kolacja", "wysokobiałkowe", "lowcarb", "sałatka"]
+  },
+  {
+    "id": "twarog-z-warzywami",
+    "title": "Twaróg z warzywami i pieczywem",
+    "category": "Kolacja",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "calories": 300,
+    "macros": { "protein": 26, "carbs": 28, "fat": 9 },
+    "ingredients": [
+      { "name": "Twaróg półtłusty", "amount": 300, "unit": "g" },
+      { "name": "Rzodkiewka", "amount": 6, "unit": "szt" },
+      { "name": "Ogórek", "amount": 1, "unit": "szt" },
+      { "name": "Szczypiorek", "amount": 1, "unit": "pęczek" },
+      { "name": "Jogurt naturalny", "amount": 3, "unit": "łyżki" },
+      { "name": "Pieczywo pełnoziarniste", "amount": 4, "unit": "kromki" }
+    ],
+    "instructions": [
+      "Rozgnieć twaróg z jogurtem.",
+      "Pokrój rzodkiewkę i ogórek w kostkę.",
+      "Wymieszaj twaróg z warzywami i szczypiorkiem.",
+      "Dopraw solą i pieprzem.",
+      "Podawaj z pieczywem."
+    ],
+    "tags": ["kolacja", "wysokobiałkowe", "wegetariańskie", "szybkie"]
+  },
+  {
+    "id": "kurczak-z-warzywami-na-patelni",
+    "title": "Kurczak z warzywami na patelni",
+    "category": "Kolacja",
+    "prepTimeMinutes": 25,
+    "servings": 2,
+    "calories": 400,
+    "macros": { "protein": 38, "carbs": 20, "fat": 18 },
+    "ingredients": [
+      { "name": "Pierś z kurczaka", "amount": 350, "unit": "g" },
+      { "name": "Cukinia", "amount": 1, "unit": "szt" },
+      { "name": "Papryka czerwona", "amount": 1, "unit": "szt" },
+      { "name": "Brokuł", "amount": 200, "unit": "g" },
+      { "name": "Czosnek", "amount": 2, "unit": "ząbki" },
+      { "name": "Sos sojowy", "amount": 2, "unit": "łyżki" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+    ],
+    "instructions": [
+      "Pokrój kurczaka w paski i obsmaż na oliwie.",
+      "Dodaj pokrojone warzywa i czosnek.",
+      "Smaż 8-10 minut, często mieszając.",
+      "Wlej sos sojowy i wymieszaj.",
+      "Dopraw i podawaj."
+    ],
+    "tags": ["kolacja", "wysokobiałkowe", "lowcarb", "patelnia"]
+  },
+  {
+    "id": "koktajl-proteinowy-bananowy",
+    "title": "Koktajl proteinowy bananowy",
+    "category": "Przekąska",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "calories": 280,
+    "macros": { "protein": 25, "carbs": 35, "fat": 4 },
+    "ingredients": [
+      { "name": "Mleko", "amount": 250, "unit": "ml" },
+      { "name": "Banan", "amount": 1, "unit": "szt" },
+      { "name": "Odżywka białkowa", "amount": 30, "unit": "g" },
+      { "name": "Masło orzechowe", "amount": 1, "unit": "łyżeczka" }
+    ],
+    "instructions": [
+      "Wrzuć wszystkie składniki do blendera.",
+      "Zmiksuj na gładką masę.",
+      "Przelej do szklanki.",
+      "Podawaj od razu."
+    ],
+    "tags": ["przekąska", "wysokobiałkowe", "szybkie", "słodkie"]
+  },
+  {
+    "id": "hummus-z-warzywami",
+    "title": "Hummus z warzywami",
+    "category": "Przekąska",
+    "prepTimeMinutes": 10,
+    "servings": 4,
+    "calories": 220,
+    "macros": { "protein": 8, "carbs": 22, "fat": 11 },
+    "ingredients": [
+      { "name": "Cieciorka z puszki", "amount": 400, "unit": "g" },
+      { "name": "Tahini", "amount": 2, "unit": "łyżki" },
+      { "name": "Czosnek", "amount": 1, "unit": "ząbek" },
+      { "name": "Cytryna", "amount": 0.5, "unit": "szt" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" },
+      { "name": "Marchew", "amount": 2, "unit": "szt" },
+      { "name": "Papryka czerwona", "amount": 1, "unit": "szt" }
+    ],
+    "instructions": [
+      "Odsącz cieciorkę.",
+      "Zmiksuj cieciorkę z tahini, czosnkiem, sokiem z cytryny i oliwą.",
+      "Dopraw solą na gładko.",
+      "Pokrój marchew i paprykę w słupki.",
+      "Podawaj hummus z warzywami."
+    ],
+    "tags": ["przekąska", "wegetariańskie", "wegańskie", "zdrowe"]
+  },
+  {
+    "id": "tortilla-z-omletem-pomidorem-i-awokado",
+    "title": "Tortilla z omletem, pomidorem i awokado",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 15,
+    "servings": 2,
+    "calories": 500,
+    "macros": { "protein": 18, "carbs": 30, "fat": 34 },
+    "ingredients": [
+      { "name": "Tortille pszenne", "amount": 2, "unit": "szt" },
+      { "name": "Masło", "amount": 2, "unit": "łyżeczki" },
+      { "name": "Awokado", "amount": 1, "unit": "szt" },
+      { "name": "Pomidor", "amount": 1, "unit": "szt" },
+      { "name": "Jajka", "amount": 2, "unit": "szt" },
+      { "name": "Szpinak sałatkowy", "amount": 30, "unit": "g" },
+      { "name": "Ser mozzarella tarty", "amount": 50, "unit": "g" }
+    ],
+    "instructions": [
+      "Awokado obierz, usuń pestkę i pokrój w cienkie półplasterki; pomidora pokrój w plasterki.",
+      "Na patelni o średnicy tortilli rozprowadź łyżeczkę masła.",
+      "Roztrzep jajko z solą i pieprzem, wylej na patelnię, połóż na wierzch tortillę i smaż około pół minuty, aż jajko się zetnie.",
+      "Przewróć na drugą stronę szeroką łopatką.",
+      "Ułóż plasterki pomidora, posyp serem, dodaj szpinak i awokado, dopraw solą i pieprzem.",
+      "Złóż tortillę na pół, dociśnij i podgrzewaj do zrumienienia. Powtórz z drugą tortillą."
+    ],
+    "tags": ["śniadanie", "wegetariańskie", "szybkie", "jajka"]
+  },
+  {
+    "id": "tortilla-z-omletem-pomidorem-i-awokado-kolacja",
+    "title": "Tortilla z omletem, pomidorem i awokado",
+    "category": "Kolacja",
+    "prepTimeMinutes": 15,
+    "servings": 2,
+    "calories": 500,
+    "macros": { "protein": 18, "carbs": 30, "fat": 34 },
+    "ingredients": [
+      { "name": "Tortille pszenne", "amount": 2, "unit": "szt" },
+      { "name": "Masło", "amount": 2, "unit": "łyżeczki" },
+      { "name": "Awokado", "amount": 1, "unit": "szt" },
+      { "name": "Pomidor", "amount": 1, "unit": "szt" },
+      { "name": "Jajka", "amount": 2, "unit": "szt" },
+      { "name": "Szpinak sałatkowy", "amount": 30, "unit": "g" },
+      { "name": "Ser mozzarella tarty", "amount": 50, "unit": "g" }
+    ],
+    "instructions": [
+      "Awokado obierz, usuń pestkę i pokrój w cienkie półplasterki; pomidora pokrój w plasterki.",
+      "Na patelni o średnicy tortilli rozprowadź łyżeczkę masła.",
+      "Roztrzep jajko z solą i pieprzem, wylej na patelnię, połóż na wierzch tortillę i smaż około pół minuty, aż jajko się zetnie.",
+      "Przewróć na drugą stronę szeroką łopatką.",
+      "Ułóż plasterki pomidora, posyp serem, dodaj szpinak i awokado, dopraw solą i pieprzem.",
+      "Złóż tortillę na pół, dociśnij i podgrzewaj do zrumienienia. Powtórz z drugą tortillą."
+    ],
+    "tags": ["kolacja", "wegetariańskie", "szybkie", "jajka"]
+  },
+  {
+    "id": "belgijskie-gofry",
+    "title": "Belgijskie gofry",
+    "category": "Kolacja",
+    "prepTimeMinutes": 45,
+    "servings": 8,
+    "calories": 163,
+    "macros": { "protein": 3, "carbs": 19, "fat": 8 },
+    "ingredients": [
+      { "name": "Jajka", "amount": 1.5, "unit": "szt" },
+      { "name": "Sól", "amount": 1, "unit": "szczypta" },
+      { "name": "Masło miękkie", "amount": 125, "unit": "g" },
+      { "name": "Proszek daktylowy", "amount": 62.5, "unit": "g" },
+      { "name": "Cukier waniliowy", "amount": 4, "unit": "g" },
+      { "name": "Mąka pszenna", "amount": 125, "unit": "g" },
+      { "name": "Proszek do pieczenia", "amount": 8, "unit": "g" },
+      { "name": "Mleko", "amount": 125, "unit": "ml" },
+      { "name": "Olej słonecznikowy", "amount": 1, "unit": "łyżka" }
+    ],
+    "instructions": [
+      "Oddziel białka od żółtek. Białka ubij ze szczyptą soli na sztywną pianę i przełóż do dużej miski.",
+      "Miękkie masło zmiksuj z żółtkami, proszkiem daktylowym i cukrem waniliowym na gładką masę.",
+      "Dodaj mąkę, proszek do pieczenia i mleko, zmiksuj na gładkie, gęste ciasto.",
+      "Delikatnie połącz ciasto z ubitą pianą z białek.",
+      "Rozgrzej gofrownicę posmarowaną cienko olejem słonecznikowym i smaż gofry po 2-3 minuty na złotobrązowo.",
+      "Gotowe gofry posyp według uznania proszkiem daktylowym i podawaj od razu."
+    ],
+    "tags": ["przekąska", "słodkie", "deser", "wegetariańskie"]
+  },
+  {
+    "id": "kurczak-w-sosie-smietanowym",
+    "title": "Kurczak w sosie śmietanowym",
+    "category": "Obiad",
+    "prepTimeMinutes": 80,
+    "servings": 4,
+    "calories": 845,
+    "macros": { "protein": 60, "carbs": 43, "fat": 48 },
+    "ingredients": [
+      { "name": "Pierś z kurczaka", "amount": 800, "unit": "g" },
+      { "name": "Mąka pszenna", "amount": 20, "unit": "g" },
+      { "name": "Parmezan", "amount": 50, "unit": "g" },
+      { "name": "Masło klarowane", "amount": 80, "unit": "g" },
+      { "name": "Sól", "amount": 5, "unit": "g" },
+      { "name": "Pieprz", "amount": 1, "unit": "g" },
+      { "name": "Śmietanka 30%", "amount": 150, "unit": "ml" },
+      { "name": "Cebula", "amount": 200, "unit": "g" },
+      { "name": "Czosnek", "amount": 30, "unit": "g" },
+      { "name": "Natka pietruszki", "amount": 1, "unit": "pęczek" },
+      { "name": "Ryż", "amount": 150, "unit": "g" },
+      { "name": "Colesław (gotowy)", "amount": 1, "unit": "opakowanie" }
+    ],
+    "instructions": [
+      "Pierś z kurczaka oczyść z chrząstek i żyłek, pokrój na równe kawałki, oprósz solą i pieprzem.",
+      "Wymieszaj mąkę z 20 g tartego parmezanu i obtocz w niej kawałki kurczaka.",
+      "Na patelni rozgrzej 40 g masła klarowanego i smaż kurczaka po ~2 minuty z każdej strony na złoto. Zdejmij mięso na talerz.",
+      "Na tę samą patelnię wrzuć resztę masła i posiekaną cebulę, zeszklij ~5 minut. Pod koniec dodaj pokrojony czosnek i smaż minutę.",
+      "Wlej śmietankę i 200 ml gorącej wody (lub bulionu), mieszaj na małym ogniu ~2 minuty.",
+      "Dodaj resztę parmezanu (30 g), wymieszaj, włóż kurczaka, dopraw pieprzem i natką pietruszki. Duś pod przykryciem nie dłużej niż 2 minuty.",
+      "Ryż ugotuj według instrukcji na opakowaniu. Colesław podaj gotowy, kupiony. Całość podawaj razem."
+    ],
+    "tags": ["obiad", "kurczak", "wysokobiałkowe", "niskowęglowodanowe"]
+  },
+  {
+    "id": "krem-z-bialych-warzyw",
+    "title": "Krem z białych warzyw",
+    "category": "Obiad",
+    "prepTimeMinutes": 75,
+    "servings": 4,
+    "calories": 620,
+    "macros": { "protein": 15, "carbs": 75, "fat": 28 },
+    "ingredients": [
+      { "name": "Kalafior", "amount": 450, "unit": "g" },
+      { "name": "Por (biała część)", "amount": 200, "unit": "g" },
+      { "name": "Cebula", "amount": 400, "unit": "g" },
+      { "name": "Ziemniaki", "amount": 500, "unit": "g" },
+      { "name": "Seler korzeń", "amount": 180, "unit": "g" },
+      { "name": "Pietruszka korzeń", "amount": 250, "unit": "g" },
+      { "name": "Czosnek", "amount": 20, "unit": "g" },
+      { "name": "Mascarpone", "amount": 200, "unit": "g" },
+      { "name": "Masło klarowane", "amount": 40, "unit": "g" },
+      { "name": "Oliwa z oliwek", "amount": 60, "unit": "ml" },
+      { "name": "Sok z cytryny", "amount": 60, "unit": "ml" },
+      { "name": "Sól", "amount": 10, "unit": "g" },
+      { "name": "Pieprz", "amount": 1, "unit": "g" },
+      { "name": "Gałka muszkatołowa", "amount": 1, "unit": "g" },
+      { "name": "Imbir", "amount": 1, "unit": "g" },
+      { "name": "Kmin rzymski", "amount": 1, "unit": "g" },
+      { "name": "Chleb tostowy", "amount": 8, "unit": "szt" }
+    ],
+    "instructions": [
+      "Przygotuj warzywa: kalafior podziel na różyczki, por, cebulę, czosnek obierz i posiekaj, ziemniaki, seler i pietruszkę obierz i pokrój w kostkę.",
+      "W garnku (min. 3,5 l) roztop masło klarowane, wlej oliwę, dodaj por i cebulę, smaż 10 minut na średnim ogniu.",
+      "Dodaj czosnek, smaż kolejne 5 minut.",
+      "Wlej 750 ml wody lub bulionu, dodaj ziemniaki, seler, pietruszki oraz przyprawy (sól, pieprz, gałka, imbir, kmin). Przykryj, doprowadź do wrzenia, gotuj 10 minut na małym ogniu.",
+      "Dodaj różyczki kalafiora i gotuj jeszcze 10-15 minut do miękkości.",
+      "Przed wyłączeniem wlej sok z cytryny i dodaj mascarpone.",
+      "Zmiksuj zupę blenderem ręcznym na gładki krem. W razie potrzeby rozrzedź mlekiem lub bulionem, dopraw do smaku.",
+      "Chleb tostowy pokrój w kostkę, opiecz na patelni lub w piekarniku na złoto. Podawaj zupę z grzankami, oliwą i świeżymi ziołami."
+    ],
+    "tags": ["obiad", "zupa", "wegetariańska", "bezglutenowa", "warzywna"]
+  },
+  {
+    "id": "kremowa-zupa-cukiniowa",
+    "title": "Kremowa zupa cukiniowa",
+    "category": "Obiad",
+    "prepTimeMinutes": 30,
+    "servings": 4,
+    "calories": 82,
+    "macros": { "protein": 4, "carbs": 4, "fat": 4 },
+    "ingredients": [
+      { "name": "Cebula", "amount": 20, "unit": "g" },
+      { "name": "Czosnek", "amount": 1, "unit": "ząbek" },
+      { "name": "Cukinia", "amount": 500, "unit": "g" },
+      { "name": "Bulion warzywny (kostka)", "amount": 1, "unit": "szt" },
+      { "name": "Sól", "amount": 2, "unit": "g" },
+      { "name": "Pieprz", "amount": 1, "unit": "g" },
+      { "name": "Masło", "amount": 25, "unit": "g" },
+      { "name": "Ser topiony", "amount": 50, "unit": "g" }
+    ],
+    "instructions": [
+      "Cebulę i czosnek obierz, rozdrobnij w blenderze lub posiekaj drobno.",
+      "Cukinię umyj, przepołów, pokrój w grubą kostkę.",
+      "W garnku połącz cukinię, cebulę, czosnek, 500 ml wody, kostkę bulionową, sól i pieprz. Gotuj pod przykryciem 15 minut na średnim ogniu, aż warzywa będą miękkie.",
+      "Dodaj masło i ser topiony, zmiksuj blenderem ręcznym na gładki krem, stopniowo zwiększając prędkość.",
+      "Dopraw do smaku solą i pieprzem, podawaj od razu."
+    ],
+    "tags": ["obiad", "zupa", "wegetariańska", "szybkie", "warzywna"]
+  },
+  {
+    "id": "amerykanskie-pancake",
+    "title": "Amerykańskie pancake'i",
+    "category": "Śniadanie",
+    "prepTimeMinutes": 35,
+    "servings": 10,
+    "calories": 152,
+    "macros": { "protein": 4, "carbs": 17, "fat": 7 },
+    "ingredients": [
+      { "name": "Masło", "amount": 75, "unit": "g" },
+      { "name": "Mleko 3,5%", "amount": 300, "unit": "g" },
+      { "name": "Jajka", "amount": 2, "unit": "szt" },
+      { "name": "Cukier", "amount": 50, "unit": "g" },
+      { "name": "Mąka pszenna typ 405", "amount": 200, "unit": "g" },
+      { "name": "Proszek do pieczenia", "amount": 5, "unit": "g" },
+      { "name": "Sól", "amount": 1, "unit": "szczypta" },
+      { "name": "Dżem", "amount": 100, "unit": "g" }
+    ],
+    "instructions": [
+      "Roztop 50 g masła w mikrofali lub w rondelku.",
+      "W misce wymieszaj mleko, roztopione masło, cukier i jajka.",
+      "Dodaj mąkę, proszek do pieczenia i sól, wymieszaj na gładkie ciasto (można użyć miksera).",
+      "Na patelni rozgrzewaj po ½ łyżeczki masła, wylewaj ciasto chochelką, smaż placuszki z obu stron na złotobrązowo.",
+      "Gotowe pancake'i układaj jeden na drugim i trzymaj w lekko nagrzanym piekarniku.",
+      "Podawaj z dżemem."
+    ],
+    "tags": ["śniadanie", "słodkie", "wegetariańskie", "szybkie", "pancakes"]
+  },
+  {
+    "id": "skyr-wanilia-stracciatella",
+    "title": "Skyr wanilia stracciatella",
+    "category": "Przekąska",
+    "prepTimeMinutes": 0,
+    "servings": 1,
+    "calories": 308,
+    "macros": { "protein": 23, "carbs": 35, "fat": 8 },
+    "ingredients": [
+      { "name": "Skyr wanilia stracciatella (Piątnica, 350 g)", "amount": 1, "unit": "opakowanie" }
+    ],
+    "instructions": [
+      "Otworzyć opakowanie i spożyć bezpośrednio lub przelać do miseczki."
+    ],
+    "tags": ["przekąska", "wysokobiałkowe", "jogurt", "gotowy-produkt"]
+  },
+  {
+    "id": "skyr-z-mango-i-marakuja",
+    "title": "Skyr z mango i marakują",
+    "category": "Przekąska",
+    "prepTimeMinutes": 0,
+    "servings": 1,
+    "calories": 117,
+    "macros": { "protein": 14, "carbs": 15, "fat": 0 },
+    "ingredients": [
+      { "name": "Skyr z mango i marakują (Piątnica, 150 g)", "amount": 1, "unit": "opakowanie" }
+    ],
+    "instructions": [
+      "Otworzyć opakowanie, wymieszać skyr z musem z mango i marakui na dnie kubeczka, spożyć."
+    ],
+    "tags": ["przekąska", "wysokobiałkowe", "jogurt", "gotowy-produkt"]
+  },
+  {
+    "id": "banan",
+    "title": "Banan",
+    "category": "Przekąska",
+    "prepTimeMinutes": 0,
+    "servings": 1,
+    "calories": 105,
+    "macros": { "protein": 1, "carbs": 27, "fat": 0 },
+    "ingredients": [
+      { "name": "Banan", "amount": 1, "unit": "szt" }
+    ],
+    "instructions": [
+      "Obrać i zjeść."
+    ],
+    "tags": ["przekąska", "owoc", "gotowy-produkt"]
+  },
+  {
+    "id": "wafle-ryzowe-polewa-jogurtowa",
+    "title": "Wafle ryżowe w polewie jogurtowej",
+    "category": "Przekąska",
+    "prepTimeMinutes": 0,
+    "servings": 1,
+    "calories": 287,
+    "macros": { "protein": 5, "carbs": 40, "fat": 12 },
+    "ingredients": [
+      { "name": "Wafle ryżowe w polewie jogurtowej (Kupiec, 60 g)", "amount": 2, "unit": "szt" }
+    ],
+    "instructions": [
+      "Otworzyć opakowanie, zjeść dwie wafle jako przekąskę."
+    ],
+    "tags": ["przekąska", "wafle-ryżowe", "gotowy-produkt"]
+  }
+]
