@@ -23,6 +23,12 @@ export interface PlannerContextValue {
   dailyCalories: (dayIndex: number, personId: string) => number
   /** Lista zakupów dla wskazanego tygodnia cyklu (0 = pierwszy). */
   shoppingListForWeek: (weekIndex: number) => ShoppingItem[]
+  /** Eksportuje stan aplikacji (osoby + plan) jako plik .json. */
+  exportState: () => void
+  /** Importuje stan aplikacji z pliku .json. */
+  importState: () => Promise<void>
+  /** Czyści cały plan i przywraca domyślne osoby. */
+  resetState: () => void
 }
 
 export const PlannerContext = createContext<PlannerContextValue | null>(null)

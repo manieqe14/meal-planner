@@ -20,6 +20,12 @@ import { roundTo } from '../utils/number'
 import { dailyCaloriesForPerson } from '../utils/nutrition'
 import { buildShoppingList } from '../utils/shoppingList'
 import { readStorage, writeStorage } from '../utils/storage'
+import {
+  buildState,
+  downloadState,
+  parseState,
+  pickFile,
+} from '../utils/state'
 import { PlannerContext } from './plannerContext'
 import type { PlannerContextValue } from './plannerContext'
 
@@ -117,6 +123,27 @@ export const PlannerProvider = ({ children }: { children: ReactNode }) => {
     [cyclePlan, people, getRecipeById],
   )
 
+  const exportState = useCallback(() => {
+    downloadState(buildState(people, cyclePlan))
+  }, [people, cyclePlan])
+
+  const importState = useCallback(async () => {
+    const raw = await pickFile()
+    if (!raw) return
+    const parsed = parseState(raw)
+    if (!parsed) {
+      window.alert('Nieprawidłowy plik stanu aplikacji.')
+      return
+    }
+    setPeople(parsed.people)
+    setCyclePlan(parsed.cyclePlan)
+  }, [])
+
+  const resetState = useCallback(() => {
+    setPeople(DEFAULT_PEOPLE)
+    setCyclePlan(emptyCycle())
+  }, [])
+
   const value = useMemo<PlannerContextValue>(
     () => ({
       people,
@@ -126,6 +153,9 @@ export const PlannerProvider = ({ children }: { children: ReactNode }) => {
       setMealPortions,
       dailyCalories,
       shoppingListForWeek,
+      exportState,
+      importState,
+      resetState,
     }),
     [
       people,
@@ -135,6 +165,9 @@ export const PlannerProvider = ({ children }: { children: ReactNode }) => {
       setMealPortions,
       dailyCalories,
       shoppingListForWeek,
+      exportState,
+      importState,
+      resetState,
     ],
   )
 

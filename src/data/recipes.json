@@ -53,27 +53,31 @@
     "id": "pappardelle-z-kurczakiem",
     "title": "Pappardelle z kurczakiem",
     "category": "Obiad",
-    "prepTimeMinutes": 35,
-    "servings": 3,
-    "calories": 620,
-    "macros": { "protein": 42, "carbs": 58, "fat": 22 },
+    "prepTimeMinutes": 30,
+    "servings": 4,
+    "calories": 748,
+    "macros": { "protein": 47, "carbs": 71, "fat": 28 },
     "ingredients": [
-      { "name": "Makaron pappardelle", "amount": 300, "unit": "g" },
-      { "name": "Pierś z kurczaka", "amount": 400, "unit": "g" },
+      { "name": "Makaron pappardelle", "amount": 350, "unit": "g" },
+      { "name": "Pierś z kurczaka", "amount": 550, "unit": "g" },
+      { "name": "Pomidory suszone z oleju", "amount": 80, "unit": "g" },
       { "name": "Śmietanka 30%", "amount": 200, "unit": "ml" },
-      { "name": "Czosnek", "amount": 2, "unit": "ząbki" },
       { "name": "Parmezan", "amount": 50, "unit": "g" },
-      { "name": "Szpinak", "amount": 100, "unit": "g" },
-      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" }
+      { "name": "Szpinak baby", "amount": 200, "unit": "g" },
+      { "name": "Oliwa z oliwek", "amount": 2, "unit": "łyżki" },
+      { "name": "Przyprawa gyros/kebab", "amount": 1, "unit": "łyżka" },
+      { "name": "Pieprz", "amount": 1, "unit": "g" }
     ],
     "instructions": [
-      "Ugotuj makaron al dente według instrukcji na opakowaniu.",
-      "Pokrój kurczaka w paski i obsmaż na oliwie do zrumienienia.",
-      "Dodaj czosnek i szpinak, smaż chwilę.",
-      "Wlej śmietankę, dodaj starty parmezan i zredukuj sos.",
-      "Wymieszaj z makaronem, dopraw solą i pieprzem."
+      "Pierś z kurczaka pokrój na kawałki ~1,5 cm, posyp przyprawą gyros/kebab i pieprzem, wymieszaj.",
+      "Na patelni rozgrzej oliwę, smaż kurczaka ~8 minut na średnim ogniu, przewracając co kilka minut. Przełóż do miseczki.",
+      "Na tę samą patelnię wlej 5 łyżek wody, wrzuć szpinak baby i smaż do zwiędnięcia (~5 minut).",
+      "Dodaj pokrojone w paski suszone pomidory i starty parmezan, wymieszaj.",
+      "Wlej śmietankę 30%, wymieszaj, gotuj 2-3 minuty aż ser się rozpuści. Włóż kurczaka z powrotem, podgrzej.",
+      "W międzyczasie ugotuj makaron al dente w osolonym wrzątku (o minutę dłużej niż na opakowaniu).",
+      "Przełóż makaron do garnka, zalej sosem z kurczakiem, wymieszaj i podawaj."
     ],
-    "tags": ["obiad", "wysokobiałkowe", "makaron"]
+    "tags": ["obiad", "wysokobiałkowe", "makaron", "szybkie", "kurczak"]
   },
   {
     "id": "pierogi",

@@ -1,6 +1,7 @@
 import { PLAN_SLOTS } from '../constants'
 import type { CyclePlan, Person, ShoppingItem } from '../types/planner'
 import type { Recipe } from '../types/recipe'
+import { normalizeIngredient } from './normalizeIngredient'
 import { roundTo } from './number'
 import { personPortions } from './nutrition'
 
@@ -35,13 +36,16 @@ export const buildShoppingList = (
         if (!recipe || servings <= 0) return slotAcc
 
         return recipe.ingredients.reduce((ingAcc, ing) => {
-          const perServing = ing.amount / (recipe.servings || 1)
+          const normalized = normalizeIngredient(ing)
+          if (!normalized) return ingAcc
+
+          const perServing = normalized.amount / (recipe.servings || 1)
           const addition = perServing * servings
-          const key = itemKey(ing.name, ing.unit)
+          const key = itemKey(normalized.name, normalized.unit)
           const existing = ingAcc.get(key)
           const next: ShoppingItem = existing
             ? { ...existing, amount: existing.amount + addition }
-            : { name: ing.name, unit: ing.unit, amount: addition }
+            : { name: normalized.name, unit: normalized.unit, amount: addition }
           return new Map(ingAcc).set(key, next)
         }, slotAcc)
       }, dayAcc),
