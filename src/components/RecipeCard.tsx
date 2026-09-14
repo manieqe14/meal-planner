@@ -35,7 +35,7 @@ export const RecipeCard = ({ recipe, onView }: RecipeCardProps) => {
         </span>
         {recipe.calories != null && (
           <span className="inline-flex items-center gap-1">
-            <Flame className="h-4 w-4" /> {recipe.calories} kcal
+            <Flame className="h-4 w-4" /> {recipe.calories} kcal / porcja
           </span>
         )}
       </div>

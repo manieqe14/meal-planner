@@ -31,7 +31,7 @@ export const RecipeDetailModal = ({
           </span>
           {recipe.calories != null && (
             <span className="inline-flex items-center gap-1 text-sm text-slate-500">
-              <Flame className="h-4 w-4" /> {recipe.calories} kcal
+              <Flame className="h-4 w-4" /> {recipe.calories} kcal / porcja
             </span>
           )}
         </div>
@@ -52,7 +52,7 @@ export const RecipeDetailModal = ({
                 <div className="text-lg font-semibold text-slate-900">
                   {value} g
                 </div>
-                <div className="text-xs text-slate-500">{label}</div>
+                <div className="text-xs text-slate-500">{label} / porcja</div>
               </div>
             ))}
           </div>
